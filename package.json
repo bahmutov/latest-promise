@@ -1,6 +1,6 @@
 {
   "name": "latest-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pick latest promise when multiple ones are running",
   "main": "latest-promise.js",
   "scripts": {

@@ -1,16 +1,16 @@
-# pick-latest
+# latest-promise
 
 > Pick latest promise when multiple ones are running
 
-[![Circle CI](https://circleci.com/gh/bahmutov/pick-latest.svg?style=svg)](https://circleci.com/gh/bahmutov/pick-latest)
+[![Circle CI](https://circleci.com/gh/bahmutov/latest-promise.svg?style=svg)](https://circleci.com/gh/bahmutov/latest-promise)
 
-    npm install --save pick-latest
+    npm install --save latest-promise
 
 Then pass each promise through the exported function. All but latest promise will be rejected,
 you can check if the rejection is due to being obsolete
 
 ```js
-var pickLatest = require('pick-latest');
+var pickLatest = require('latest-promise');
 var first = pickLatest(makeSlow());
 var second = pickLatest(makeFast());
 // first promise takes a long time to finish, while second is quick
