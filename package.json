@@ -24,6 +24,7 @@
   "devDependencies": {
     "check-more-types": "1.8.2",
     "lazy-ass": "0.5.8",
-    "mocha": "2.2.5"
+    "mocha": "2.2.5",
+    "q": "1.4.1"
   }
 }
