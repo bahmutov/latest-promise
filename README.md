@@ -23,6 +23,8 @@ first.catch(function (err) {
 });
 ```
 
+See blog post [Pick latest promise](http://glebbahmutov.com/blog/pick-latest-promise/)
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2015
