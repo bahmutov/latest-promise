@@ -25,6 +25,9 @@
     "check-more-types": "1.8.2",
     "lazy-ass": "0.5.8",
     "mocha": "2.2.5",
+    "pre-git": "0.6.1",
     "q": "1.4.1"
-  }
+  },
+  "pre-commit": "npm test",
+  "post-commit": "npm version"
 }
