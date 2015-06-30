@@ -5,6 +5,10 @@
 [![Circle CI](https://circleci.com/gh/bahmutov/latest-promise.svg?style=svg)](https://circleci.com/gh/bahmutov/latest-promise)
 
     npm install --save latest-promise
+    // node
+    var latestPromise = require('latest-promise');
+    // browser - use latestPromise window property
+    <script src="latest-promise.js"></script>
 
 Then pass each promise through the exported function. All but latest promise will be rejected,
 you can check if the rejection is due to being obsolete
