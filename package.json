@@ -1,0 +1,29 @@
+{
+  "name": "latest-promise",
+  "version": "1.0.0",
+  "description": "Pick latest promise when multiple ones are running",
+  "main": "latest-promise.js",
+  "scripts": {
+    "test": "mocha -R spec test/*spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/pick-latest.git"
+  },
+  "keywords": [
+    "promise",
+    "order",
+    "latest"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/pick-latest/issues"
+  },
+  "homepage": "https://github.com/bahmutov/pick-latest",
+  "devDependencies": {
+    "check-more-types": "1.8.2",
+    "lazy-ass": "0.5.8",
+    "mocha": "2.2.5"
+  }
+}
