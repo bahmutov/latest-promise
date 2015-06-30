@@ -22,7 +22,7 @@ var verifySlow = verifyValue.bind(null, 'slow');
 
 
 describe('pick-latest', function () {
-  var pickLatest = require('..');
+  var pickLatest = require('../latest-promise');
 
   function verifyObsolete(promiseResult) {
     la(promiseResult, 'missing result');

@@ -1,10 +1,12 @@
 {
   "name": "latest-promise",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Pick latest promise when multiple ones are running",
-  "main": "latest-promise.js",
+  "main": "dist/latest-promise.js",
   "scripts": {
-    "test": "mocha -R spec test/*spec.js"
+    "pretest": "npm run build",
+    "test": "mocha -R spec test/*spec.js",
+    "build": "browserify src/latest-promise.js -o latest-promise.js -s latestPromise"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/bahmutov/latest-promise",
   "devDependencies": {
+    "browserify": "10.2.4",
     "check-more-types": "1.8.2",
     "lazy-ass": "0.5.8",
     "mocha": "2.2.5",
